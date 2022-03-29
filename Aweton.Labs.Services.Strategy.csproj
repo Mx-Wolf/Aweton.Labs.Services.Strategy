@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Aweton.Labs.Services.Strategy</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Maxim Volkov</Authors>
+    <Company>Proximatics Ltd.</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/Mx-Wolf/Aweton.Labs.Services.Strategy.git</RepositoryUrl>
+    <RespositoryType>git</RespositoryType>
+    <PackageTags>Mice, Mice Services</PackageTags>
+    <PackageLicenseExpression>ISC</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aweton.Labs.Services.Abstraction" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
