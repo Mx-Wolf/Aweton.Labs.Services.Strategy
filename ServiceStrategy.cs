@@ -65,6 +65,9 @@ public class ServiceStrategy<TInit, TTask, TResponse, TResult> : ITaskStrategy
       await source.RegisterFailure(ex);
       throw;
     }
+    finally{
+      source.Dispose();
+    }
   }
 
   private string FormatDuration(TimeSpan elapsed)
